@@ -1,0 +1,5 @@
+CREATE DATABASE project_staging
+COLLATE SQL_Latin1_General_CP1_CI_AS;
+
+CREATE DATABASE project_development
+COLLATE SQL_Latin1_General_CP1_CI_AS;
