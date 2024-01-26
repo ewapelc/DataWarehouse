@@ -34,19 +34,20 @@ This repository houses a comprehensive Business Intelligence (BI) system compose
 
 ## Repository Contents
 
-1. **`public/DIM[Carrier/Customer/Date].sql`**: creation of dimension tables in production database
+1. **`project/DIM[Carrier/Customer/Date].sql`**: creation of dimension tables in production database
 
-2. **`public/FactSales.sql`**: creation of facts table in production database
+2. **`project/FactSales.sql`**: creation of facts table in production database
 
-3. **`public/create_databases.sql`**: creation of staging and production databases
+3. **`project/create_databases.sql`**: creation of staging and production databases
 
-4. **`public/populate_DIMdate.sql`**: populating date dimension
+4. **`project/populate_DIMdate.sql`**: populating date dimension
 
-5. **`public/rank_[carriers/customers/days].sql`**: window / analytical functions
+5. **`project/rank_[carriers/customers/days].sql`**: window / analytical functions
 
-6. **`public/Package.dtsx`**: SSIS package, which contains ETL process
+6. **`project/Package.dtsx`**: SSIS package, which contains ETL process
 
-7. **`public/project_data_warehouse.pbix`**: file containing the PowerBI report
+7. **`project/project_data_warehouse.pbix`**: file containing the PowerBI report
 
+---
 
 Thank you for your interest in this Business Intelligence system!
